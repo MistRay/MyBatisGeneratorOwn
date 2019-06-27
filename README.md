@@ -82,3 +82,12 @@ enableCountByExample="false"
 <plugin type="mybitisPlugin.BatchInsertPlugin" />
 ```
 * 执行generatorSqlmap\GeneratorSqlmap.java中的main方法即可
+
+#### 插件方式
+
+---
+* 使用maven插件[itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)生成代码.   
+`idea`  
+用户边栏找到maven插件的选项`mybatis-generator`,展开后运行`mybatis-generator:generate`即可.  
+`eclipse`  
+运行`org.mybatis.generator:mybatis-generator-maven-plugin:1.3.7:generate`命令即可.
