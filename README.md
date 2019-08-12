@@ -2,7 +2,6 @@
 Mybatis逆向工程工具,使用了[mybatis/generator](https://github.com/mybatis/generator),
 包括批量添加,分页,序列化和基础curd.
 
----
 
 #### 使用maven构建,导入即可使用.  
 (由于ojdbc依赖不存在于maven仓库,所以需要手动下载)
@@ -85,7 +84,6 @@ enableCountByExample="false"
 
 #### 插件方式
 
----
 * 使用maven插件[itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)生成代码.   
 `idea`  
 用户边栏找到maven插件的选项`mybatis-generator`,展开后运行`mybatis-generator:generate`即可.  
